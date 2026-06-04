@@ -17,6 +17,18 @@
       "phase": "differentiation",
       "decision": "axis = niche-depth",
       "reason": "Shopify DTC bookkeepers under-served by generalist tools"
+    },
+    {
+      "date": "2026-06-04",
+      "phase": "ceo",
+      "decision": "GTM: services-first now, PLG (01e) as Phase 2; adopt free audit scanner + tiered pricing now",
+      "reason": "CEO review: services-first is cash-positive and retires demand risk before spending AI tokens; PLG free-tier COGS is unproven and demand is unproven — sequence, don't fork. Funded by services revenue."
+    },
+    {
+      "date": "2026-06-04",
+      "phase": "pricing",
+      "decision": "PLG free-tier viability gated on cost-per-ideation-run, not conversion",
+      "reason": "cogs-model.sh sweep: at ~$0.50/run healthy even @1% conv; at ~$3.00/run underwater below ~1.3% conv. Free tier must use cheap/cached ideation model + hard credit caps. Re-run with real token costs before Phase 2 greenlight."
     }
   ],
   "open_issues": [],

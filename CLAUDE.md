@@ -61,8 +61,13 @@ Live in `scripts/`. The orchestrator and skills assume they exist.
 - `state-decide.sh <phase> "<decision>" "<reason>"` — append ADR
 - `quality-gates.sh [--only x,y] [--skip z] [--keep-going]` — layered hard gates
 - `route-failure.sh --gate <g> --area <path>` — map failure → owner skill
+- `shipworthy-scan.sh <url> [--json]` — passive security audit of a deployed
+  app (leaked secrets, Supabase RLS-off, open APIs, headers, source maps); the
+  free "Is your app Shipworthy?" top-of-funnel scanner (see `docs/01e-…`)
+- `cogs-model.sh [--sweep]` — PLG free→paid unit-economics model; the Phase 2
+  go/no-go gate for the self-serve tier
 
-All are bash + jq, no Node deps.
+All are bash + jq, no Node deps. Tests live in `scripts/test/*.test.sh`.
 
 ## Skills inventory
 

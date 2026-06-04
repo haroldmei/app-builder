@@ -3,6 +3,12 @@
 **Date:** 2026-06-02
 **Basis:** `docs/01-market-analysis.md` (2026-05-29). Strategy is settled there;
 this doc is execution only.
+**2026-06-04 (CEO review):** This services-first motion is **confirmed as the
+opening move.** The PLG/self-serve alternative (`docs/01e-shipworthy-strategy.md`)
+is sequenced as **Phase 2**, funded by the revenue this plan produces. Two PLG
+ideas are pulled forward into this plan now because they are near-zero COGS and
+strengthen *this* motion: the free **"Is your app Shipworthy?" audit scanner**
+as top-of-funnel, and the repo-tier→price mapping as the productization target.
 
 > **The one job of the next 90 days:** prove that the lead ICP will *pay* for the
 > business layer before we build any self-serve product. Everything below is
